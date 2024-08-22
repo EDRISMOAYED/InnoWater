@@ -74,6 +74,14 @@ nav .navbar-brand,nav .navbar-collapse .navbar-nav .nav-item .nav-link {
     border-radius: 10px !important;
 }
 
+.zoom {
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.06);
+}
+
 
 /* footer */
 .footer {
